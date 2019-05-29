@@ -1,157 +1,92 @@
-# Contributing to react-boilerplate
+# Contributing
 
-Love react-boilerplate and want to help? Thanks so much, there's something to do for everybody!
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change.
 
-Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved.
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue or assessing patches and features.
+## Pull Request Process
 
-## Using the issue tracker
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a
+   build.
+2. Update the README.md with details of changes to the interface, this includes new environment
+   variables, exposed ports, useful file locations and container parameters.
+3. Increase the version numbers in any examples files and the README.md to the new version that this
+   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
+4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you
+   do not have permission to do that, you may request the second reviewer to merge it for you.
 
-The [issue tracker](https://github.com/react-boilerplate/react-boilerplate/issues) is
-the preferred channel for [bug reports](#bugs), [features requests](#features)
-and [submitting pull requests](#pull-requests).
+## Code of Conduct
 
-<a name="bugs"></a>
+### Our Pledge
 
-## Bug reports
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-A bug is a _demonstrable problem_ that is caused by the code in the repository.
-Good bug reports are extremely helpful - thank you!
+### Our Standards
 
-Guidelines for bug reports:
+Examples of behavior that contributes to creating a positive environment
+include:
 
-1.  **Use the GitHub issue search** &mdash; check if the issue has already been reported.
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-2.  **Check if the issue has been fixed** &mdash; try to reproduce it using the latest `master` or development branch in the repository.
+Examples of unacceptable behavior by participants include:
 
-3.  **Isolate the problem** &mdash; ideally create a [reduced test case](https://css-tricks.com/reduced-test-cases/) and a live example.
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-4.  **Use the bug report template** &mdash; please fill in the template which appears when you open a new issue.
+### Our Responsibilities
 
-A good bug report shouldn't leave others needing to chase you up for more information. Please try to be as detailed as possible in your report. What is your environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? What would you expect to be the outcome? All these details will help people to fix any potential bugs.
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-Example:
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
-> ## Description
-> A clear and concise description of what the bug is.
->
-> Any other information you want to share that is relevant to the issue being
-> reported. This might include the lines of code that you have identified as
-> causing the bug, and potential solutions (and your opinions on their
-> merits).
->
-> ## Steps to reproduce
-> Steps to reproduce the behavior:
->
-> 1.  This is the first step
-> 2.  This is the second step
-> 3.  Further steps, etc.
->
-> (Add link to a demo on https://jsfiddle.net or similar if possible)
->
-> **Expected behavior**
-> A clear and concise description of what you expected to happen.
->
-> **Screenshots**
-> If applicable, add screenshots to help explain your problem.
->
-> ## Versions
->
-> - React-Boilerplate:
-> - Node/NPM:
-> - Browser:
+### Scope
 
-<a name="features"></a>
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
-## Feature requests
+### Enforcement
 
-Feature requests are welcome. But take a moment to find out whether your idea fits with the scope and aims of the project. It's up to _you_ to make a strong case to convince the project's developers of the merits of this feature. Please provide as many details and as much context as possible.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
 
-There is also a template for feature requests. Please make sure to use it.
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
 
-<a name="pull-requests"></a>
+### Attribution
 
-## Pull requests
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at [http://contributor-covenant.org/version/1/4][version]
 
-Good pull requests - patches, improvements, new features - are a fantastic
-help. They should remain focused in scope and avoid containing unrelated
-commits.
-
-**Please ask first** before embarking on any significant pull request (e.g.
-implementing features, refactoring code, porting to a different language),
-otherwise you risk spending a lot of time working on something that the
-project's developers might not want to merge into the project.
-
-Please adhere to the coding conventions used throughout a project (indentation,
-accurate comments, etc.) and any other requirements (such as test coverage).
-
-Since the `master` branch is what people actually use in production, we have a
-`dev` branch that unstable changes get merged into first. Only when we
-consider that stable we merge it into the `master` branch and release the
-changes for real.
-
-Adhering to the following process is the best way to get your work
-included in the project:
-
-1.  [Fork](https://help.github.com/articles/fork-a-repo/) the project, clone your fork, and configure the remotes:
-
-    ```bash
-    # Clone your fork of the repo into the current directory
-    git clone https://github.com/<your-username>/react-boilerplate.git
-    # Navigate to the newly cloned directory
-    cd react-boilerplate
-    # Assign the original repo to a remote called "upstream"
-    git remote add upstream https://github.com/react-boilerplate/react-boilerplate.git
-    ```
-
-2.  If you cloned a while ago, get the latest changes from upstream:
-
-    ```bash
-    git checkout dev
-    git pull upstream dev
-    ```
-
-3.  Create a new topic branch (off the `dev` branch) to contain your feature, change, or fix:
-
-    ```bash
-    git checkout -b <topic-branch-name>
-    ```
-
-4.  Commit your changes in logical chunks. Please adhere to these [git commit message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) or your code is unlikely be merged into the main project. Use Git's [interactive rebase](https://help.github.com/articles/about-git-rebase/) feature to tidy up your commits before making them public.
-
-5.  Locally merge (or rebase) the upstream dev branch into your topic branch:
-
-    ```bash
-    git pull [--rebase] upstream dev
-    ```
-
-6.  Push your topic branch up to your fork:
-
-    ```bash
-    git push origin <topic-branch-name>
-    ```
-
-7.  [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
-
-**IMPORTANT**: By submitting a patch, you agree to allow the project
-owners to license your work under the terms of the [MIT License](https://github.com/react-boilerplate/react-boilerplate/blob/master/LICENSE.md).
-
-# Collaborating guidelines
-
-You can find the list of all contributors in [README.md](./README.md).
-
-There are few basic rules to ensure high quality of the boilerplate:
-
-- Before merging, a PR requires at least two approvals from the collaborators unless it's an architectural change, a large feature, etc. If it is, then at least 50% of the core team have to agree to merge it, with every team member having a full veto right. (i.e. every single one can block any PR)
-- A PR should remain open for at least two days before merging (does not apply for trivial contributions like fixing a typo). This way everyone has enough time to look into it.
-
-You are always welcome to discuss and propose improvements to this guideline.
-
-# Add yourself as a contributor
-
-This project follows the [All Contributors specification](https://allcontributors.org/). To add yourself to the table of contributors in the README file, please use the [bot](https://allcontributors.org/docs/en/bot/overview) or the [CLI](https://allcontributors.org/docs/en/cli/overview) as part of your PR.
-
-If you've already added yourself to the list and are making a new type of contribution, you can run it again and select the new contribution type.
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
