@@ -1,6 +1,6 @@
 /**
  *
- * Asynchronously loads the component for TobBar
+ * Asynchronously loads the component for LayoutWrapper
  *
  */
 
