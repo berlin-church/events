@@ -20,6 +20,31 @@ import saga from './saga';
 // import messages from './messages';
 
 import LayoutWrapper from '../../components/LayoutWrapper/index';
+import EventCardsList from '../../components/EventCardsList/index';
+
+const events = [
+  {
+    title: 'connect',
+    image:
+      'https://res.cloudinary.com/dkbwcwx1s/image/upload/v1536004712/connect.jpg',
+    url: 'register',
+    msgKey: 'connect',
+  },
+  {
+    title: 'host a community group',
+    image:
+      'https://res.cloudinary.com/dkbwcwx1s/image/upload/v1528827293/placeholder.png',
+    url: 'register',
+    msgKey: 'hostCommunity',
+  },
+  {
+    title: 'community group',
+    image:
+      'https://res.cloudinary.com/dkbwcwx1s/image/upload/v1536004711/CG/community-group.jpg',
+    url: 'see all',
+    msgKey: 'commnityGroup',
+  },
+];
 
 export function EventsPage() {
   useInjectReducer({ key: 'eventsPage', reducer });
@@ -32,6 +57,7 @@ export function EventsPage() {
         <meta name="description" content="Description of EventsPage" />
       </Helmet>
       <LayoutWrapper />
+      <EventCardsList events={events} />
     </div>
   );
 }

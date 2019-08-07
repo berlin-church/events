@@ -11,6 +11,6 @@ export const scope = 'app.components.LayoutWrapper';
 export default defineMessages({
   header: {
     id: `${scope}.header`,
-    defaultMessage: 'berlin.{name}',
+    defaultMessage: '',
   },
 });
