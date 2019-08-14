@@ -5,14 +5,10 @@
  */
 
 import React, { memo } from 'react';
-// import PropTypes from 'prop-types';
 
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
 
 const useStyles = makeStyles({
   root: {
@@ -20,10 +16,14 @@ const useStyles = makeStyles({
   },
   appBar: {
     backgroundColor: '#000',
+    height: '64',
   },
   title: {
     justifyContent: 'center',
     color: '#fff',
+  },
+  logo: {
+    width: '150px',
   },
 });
 
@@ -34,18 +34,15 @@ function LayoutWrapper() {
     <div className={classes.root}>
       <AppBar className={classes.appBar} position="static">
         <Toolbar className={classes.title}>
-          <FormattedMessage
-            {...messages.header}
-            values={{
-              name: <b>church</b>,
-            }}
+          <img
+            className={classes.logo}
+            src="//static1.squarespace.com/static/589397498419c2f6476f2c77/t/5b28efa970a6ad0778246fc3/1539028385210/?format=1500w"
+            alt="Berlin International Community Church"
           />
         </Toolbar>
       </AppBar>
     </div>
   );
 }
-
-LayoutWrapper.propTypes = {};
 
 export default memo(LayoutWrapper);

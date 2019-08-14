@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LayoutWrapper /> Should render and match the snapshot 1`] = `
+<div
+  class="makeStyles-root-45"
+>
+  <header
+    class="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBar-46"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters makeStyles-title-47"
+    >
+      <img
+        alt="Berlin International Community Church"
+        class="makeStyles-logo-48"
+        src="//static1.squarespace.com/static/589397498419c2f6476f2c77/t/5b28efa970a6ad0778246fc3/1539028385210/?format=1500w"
+      />
+    </div>
+  </header>
+</div>
+`;
