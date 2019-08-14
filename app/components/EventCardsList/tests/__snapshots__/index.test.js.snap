@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventCardsList /> Should render and match the snapshot 1`] = `
+<div
+  class="EventCardsList__Wrapper-k4npy7-0 kgSFEk"
+/>
+`;

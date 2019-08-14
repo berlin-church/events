@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EventsPage /> Should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="makeStyles-root-88"
+  >
+    <header
+      class="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary makeStyles-appBar-89"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters makeStyles-title-90"
+      >
+        <img
+          alt="Berlin International Community Church"
+          class="makeStyles-logo-91"
+          src="//static1.squarespace.com/static/589397498419c2f6476f2c77/t/5b28efa970a6ad0778246fc3/1539028385210/?format=1500w"
+        />
+      </div>
+    </header>
+  </div>
+  <div
+    class="EventCardsList__Wrapper-k4npy7-0 kgSFEk"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded MuiCard-root makeStyles-card-132"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media makeStyles-media-133"
+          src="https://res.cloudinary.com/dkbwcwx1s/image/upload/v1536004712/connect.jpg"
+          title="connect"
+        />
+        <div
+          class="makeStyles-title-135"
+        >
+          <span>
+            CONNECT
+          </span>
+        </div>
+        <div
+          class="MuiCardContent-root"
+        />
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-link-134 MuiButton-text MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            register
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded MuiCard-root makeStyles-card-132"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media makeStyles-media-133"
+          src="https://res.cloudinary.com/dkbwcwx1s/image/upload/v1528827293/placeholder.png"
+          title="host a community group"
+        />
+        <div
+          class="makeStyles-title-135"
+        >
+          <span>
+            HOST A COMMUNITY GROUP
+          </span>
+        </div>
+        <div
+          class="MuiCardContent-root"
+        />
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-link-134 MuiButton-text MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            register
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded MuiCard-root makeStyles-card-132"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          class="MuiCardMedia-root MuiCardMedia-media makeStyles-media-133"
+          src="https://res.cloudinary.com/dkbwcwx1s/image/upload/v1536004711/CG/community-group.jpg"
+          title="community group"
+        />
+        <div
+          class="makeStyles-title-135"
+        >
+          <span>
+            COMMUNITY GROUP
+          </span>
+        </div>
+        <div
+          class="MuiCardContent-root"
+        />
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root makeStyles-link-134 MuiButton-text MuiButton-sizeSmall"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            see all
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
