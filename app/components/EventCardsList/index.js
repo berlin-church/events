@@ -20,9 +20,10 @@ function EventCardsList(props) {
   const { events } = props;
   return (
     <Wrapper>
-      {Object.keys(events).map(event => (
-        <EventCard key={event.title} event={events[event]} />
-      ))}
+      {events &&
+        Object.keys(events).map(event => (
+          <EventCard key={event} event={events[event]} />
+        ))}
     </Wrapper>
   );
 }

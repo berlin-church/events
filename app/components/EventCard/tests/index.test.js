@@ -15,31 +15,21 @@ import EventCard from '../index';
 import { DEFAULT_LOCALE } from '../../../i18n';
 
 describe('<EventCard />', () => {
-  it('Expect to not log errors in console', () => {
-    const spy = jest.spyOn(global.console, 'error');
-    render(
-      <IntlProvider locale={DEFAULT_LOCALE}>
-        <EventCard />
-      </IntlProvider>,
-    );
-    expect(spy).not.toHaveBeenCalled();
-  });
+  it('Should render and match the snapshot', () => {
+    const event = {
+      title: 'Eu',
+      image:
+        'https://ichef.bbci.co.uk/news/660/cpsprodpb/9C76/production/_105745004_gettyimages-684415304.jpg',
+      url:
+        'https://ichef.bbci.co.uk/news/660/cpsprodpb/9C76/production/_105745004_gettyimages-684415304.jpg',
+      msgKey: 'connect',
+    };
 
-  it('Expect to have additional unit tests specified', () => {
-    expect(true).toEqual(false);
-  });
-
-  /**
-   * Unskip this test to use it
-   *
-   * @see {@link https://jestjs.io/docs/en/api#testskipname-fn}
-   */
-  it.skip('Should render and match the snapshot', () => {
     const {
       container: { firstChild },
     } = render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <EventCard />
+        <EventCard event={event} />
       </IntlProvider>,
     );
     expect(firstChild).toMatchSnapshot();

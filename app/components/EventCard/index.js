@@ -47,9 +47,9 @@ const useStyles = makeStyles({
 });
 
 function EventCard(props) {
-  const { title, image, url, msgKey } = props.event;
+  const { event } = props;
 
-  const formattedMsgObj = messages[msgKey];
+  const formattedMsgObj = messages[event.msgKey];
 
   const classes = useStyles();
   return (
@@ -58,8 +58,8 @@ function EventCard(props) {
         <CardMedia
           component="img"
           className={classes.media}
-          image={image}
-          title={title}
+          image={event.image}
+          title={event.title}
         />
         <div className={classes.title}>
           <FormattedMessage {...formattedMsgObj} />
@@ -68,7 +68,7 @@ function EventCard(props) {
       </CardActionArea>
       <CardActions>
         <Button size="small" className={classes.link}>
-          {url}
+          {event.url}
         </Button>
       </CardActions>
     </Card>
@@ -77,10 +77,6 @@ function EventCard(props) {
 
 EventCard.propTypes = {
   event: PropTypes.object,
-  title: PropTypes.string,
-  image: PropTypes.string,
-  url: PropTypes.string,
-  msgKey: PropTypes.string,
 };
 
 export default memo(EventCard);

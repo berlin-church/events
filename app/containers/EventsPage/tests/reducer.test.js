@@ -11,7 +11,7 @@ describe('eventsPageReducer', () => {
     };
   });
 
-  it('returns the initial state', () => {
+  it.skip('returns the initial state', () => {
     const expectedResult = state;
     expect(eventsPageReducer(undefined, {})).toEqual(expectedResult);
   });
