@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/berlin-international-community-church/group-leaders#readme",
   "dependencies": {
+    "apollo": "^2.21.1",
     "next": "^9.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
