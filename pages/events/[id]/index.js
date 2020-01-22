@@ -5,7 +5,6 @@ const Index = () => {
     const router = useRouter();
     return (
         <Layout>
-            <p>Event {router.query.id}</p>
         </Layout>
     );
   };
