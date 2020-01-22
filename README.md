@@ -1,15 +1,15 @@
-# group-leaders
-Admin interface to manage group members.
+# Events
+List the events available allowing to RSVP a specific event. 
 
 ## Development
 
-We are using Next.js instead of plain React. So, for more details check the [Next.js](https://nextjs.org) website.
+We are using Next.js [Next.js](https://nextjs.org) website.
 
 ### Running
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn dev
 ```
 
 ### Configuration
