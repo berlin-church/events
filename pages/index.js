@@ -1,9 +1,11 @@
 import Layout from '../components/Layout';
+import EventList from '../components/EventList';
+import { withApollo } from '../lib/apollo';
 
 const Index = () => (
     <Layout>
-      <p>Home!</p>
+      <EventList />
     </Layout>
   );
   
-  export default Index;
+  export default withApollo(Index);

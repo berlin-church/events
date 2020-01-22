@@ -1,11 +1,13 @@
 import Layout from '../../components/Layout';
+import EventList from '../../components/EventList';
+import { withApollo } from '../../lib/apollo';
 
 const Index = () => {
-    return (
-        <Layout>
-            <p>Events</p>
-        </Layout>
-    );
-  };
+  return (
+      <Layout>
+          <EventList />
+      </Layout>
+  );
+};
   
-  export default Index
+ export default withApollo(Index)
